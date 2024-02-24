@@ -238,3 +238,86 @@ footer ul{
     }
 
 }
+
+
+
+
+
+
+
+
+.h1-contacto{
+    padding-top: 6rem !important;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.contacto-content{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-content img{
+    max-width: 100%;
+    width: 270px;
+    height: 100%;
+}
+
+.contacto-content img:last-of-type{
+    max-width: 100%;
+    width: 200px;
+    height: 100%;
+}
+
+#formulario{
+    width: 60%;
+    background: linear-gradient(to right, rgb(4, 107, 4), rgb(37, 194, 39));
+    margin: 0 2rem 3rem 2rem;
+    padding: 3rem 6rem 3rem 6rem;
+    border-radius: 10px;
+}
+
+.form-content label{
+    display: block;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.form-content input, .form-content textarea{
+    width: 100%;
+    margin-bottom: 3rem;
+    border: none;
+    padding: .5rem;
+}
+
+textarea{
+    height: 11rem;
+}
+
+.form-content input:last-of-type{
+    margin-bottom: 0;
+    padding: 1rem;
+    background: purple;
+    color: white;
+}
+
+.form-content input:last-of-type:hover{
+    background: rgb(82, 1, 82);
+    transition-property: background;
+    transition-duration: .5s;
+}
+
+
+@media screen and (max-width: 1023px){
+    
+    .contacto-content img{
+        display: none;
+    }
+
+    #formulario{
+        padding: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+}
