@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick y Morty API</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/icon.png" alt="Logo" width="40" class="d-inline-block align-text-top">
+                  </a>
+                  <button id="install-btn" type="button" class="btn btn-primary" style="display: none;">Instalar</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        <div class="nosotros">
+        
+            <div class="nosotros1">
+                <div class="nosotros1-content">
+                    <p>Unidos por la fascinación hacia 'Rick y Morty', un equipo de entusiastas como nosotros se embarcó en la misión de crear una ventana al fascinante universo de esta serie. Esta API es el fruto de nuestro amor compartido por los personajes estrafalarios que pueblan cada episodio. Nos sumergimos en la codificación y el diseño para ofrecer a la comunidad una plataforma que no solo exhibe a Rick, Morty y compañía, sino que también invita a explorar sus historias, conexiones y peculiaridades. Queríamos ir más allá de la pantalla, compartiendo nuestra devoción a través de una herramienta que encarna la diversión y el ingenio de esta aventura intergaláctica.</p>
+                </div>
+                <div class="image">
+                    <img alt="Rick y Morty saliendo de un portal listos para luchar" src="images/nosotros1.jpg"></img>
+                    <img alt="Rick abriendole los ojos a Morty" src="images/nosotros2.jpg"></img>
+                </div>
+            </div>
+    
+            <div class="nosotros2">
+                <div class="nosotros2-content">
+                    <p>Desde el genio alcohólico hasta la curiosidad de Morty, cada personaje tiene su lugar en nuestra API. Nuestra motivación es ofrecer a los aficionados un espacio donde puedan deleitarse, descubrir detalles ocultos y profundizar en el rico tapiz de personalidades. Esta iniciativa es un tributo a la serie que nos cautiva, y esperamos que todos los que compartan nuestra pasión disfruten explorando cada rincón de este universo creado por 'Rick y Morty'.</p>
+                </div>
+                <div class="image">
+                    <img alt="Rick hablándole a Morty" src="images/nosotros3.jpg"></img>
+                    <img alt="Rick Sanchez, Morty Smith y Summer Smith" src="images/nosotros4.jpg"></img>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <img src="images/icon.png" alt="Logo">
+        <div class="footer-text">
+            <p>Datos del alumno</p>
+            <ul id="datosApiPhp"></ul>
+        </div>
+    </footer>
+    
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html> 

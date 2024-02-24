@@ -154,3 +154,87 @@ footer ul{
         margin-top: 2rem;
     }
 }
+
+
+
+
+
+
+.nosotros{
+    margin: 8rem 6rem 4rem 6rem;
+}
+
+.nosotros h2{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.nosotros1, .nosotros2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.nosotros2{
+    flex-direction: row-reverse;
+}
+
+.nosotros1-content, .nosotros2-content {
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.image img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: -1px 1px 60px -20px rgba(0, 0, 0, 0.20);
+}
+
+.image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+@media screen and (max-width: 850px){
+    .nosotros{
+        margin: 4rem 2rem;
+    }
+
+    .nosotros h2{
+        font-size: 2rem;
+    }
+
+    .nosotros1, .nosotros2{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .nosotros1-content, .nosotros2-content{
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .image{
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+
+}
