@@ -8,6 +8,7 @@ self.addEventListener("install", (event) => {
           './index.html',
           './nosotros.html',
           './contacto.html',
+          './login.html',
           './api.php',
           './gracias.php',
           './images/bannerInicio.jpg'
