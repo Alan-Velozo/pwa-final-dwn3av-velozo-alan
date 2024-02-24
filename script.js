@@ -53,6 +53,21 @@ mostrarApi();
 
 
 
+if("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js")
+    .then(() => {
+        console.log("ServiceWorker registrado.");
+    })
+    .catch(() => {
+        console.log("ServiceWorker no registrado.");
+    });
+}
+
+
+
+
+
+
 
 const listaPersonajes = document.getElementById('listaPersonajes');
 const apiUrl = 'https://rickandmortyapi.com/api/character';
