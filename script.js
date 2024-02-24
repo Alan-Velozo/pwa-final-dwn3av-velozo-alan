@@ -29,6 +29,29 @@ installButton.addEventListener('click', () => {
 
 
 
+const apiPHP = 'http://localhost/pwa-final-dwn3av-velozo-alan/api.php';
+
+const mostrarApi = function () {
+
+    const listaDatosAPI = document.getElementById('datosApiPhp');
+    fetch(apiPHP)
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+            const items = Object.entries(data).map(([key, value]) => `<li>${key}: ${value}</li>`);
+            listaDatosAPI.innerHTML = items.join('');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+};
+
+mostrarApi();
+
+
+
+
 
 
 const listaPersonajes = document.getElementById('listaPersonajes');

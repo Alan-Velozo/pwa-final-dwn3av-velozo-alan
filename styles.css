@@ -117,3 +117,40 @@ body, html{
 .card-title{
     margin: 1rem 0 2rem 0 !important;
 }
+
+
+
+
+footer{
+    background: rgb(105, 0, 105);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem 1rem 3rem;
+    align-items: center;
+}
+
+footer p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+footer img{
+    width: 100px;
+    height: 100%;
+}
+
+footer ul{
+    margin-bottom: 0rem !important;
+}
+
+@media (max-width: 549px) {
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    footer img{
+        margin-top: 2rem;
+    }
+}
